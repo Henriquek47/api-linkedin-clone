@@ -1,0 +1,22 @@
+{
+  "name": "like-endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "offline": "nodemon --exec serverless offline --ignoreJWTSignature"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "serverless-dotenv-plugin": "^6.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1",
+    "serverless": "^3.31.0",
+    "serverless-offline": "^12.0.4"
+  }
+}
